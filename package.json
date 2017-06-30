@@ -1,0 +1,28 @@
+{
+  "name": "transifex-webhook-handler",
+  "version": "1.0.0",
+  "description": "Web handler / middleware for processing GitHub Webhooks",
+  "main": "transifex-webhook-handler.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transifex",
+    "webhooks"
+  ],
+  "author": "Alexander Salas Bastidas <a.salas@ieee.org> (https://ajsb85.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajsb85/transifex-webhook-handler.git"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bl": "~1.2.1",
+    "buffer-equal-constant-time": "~1.0.1"
+  },
+  "devDependencies": {
+    "run-series": "~1.1.4",
+    "tape": "~4.7.0",
+    "through2": "~2.0.3"
+  }
+}
