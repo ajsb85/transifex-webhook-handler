@@ -17,7 +17,7 @@
   },
   "license": "GPL-3.0",
   "dependencies": {
-    "bl": "~1.2.1",
+    "bl": "~4.0.3",
     "buffer-equal-constant-time": "~1.0.1"
   },
   "devDependencies": {
